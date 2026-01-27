@@ -1,29 +1,98 @@
+# 📊 PCA High-Dimensional Data Analysis & Blockchain Digital Notebook
 
-# PCA High Dimensional Data Analysis
+## Overview
+This repository presents a **Week 1 to Week 5 learning-based project** focused on **Principal Component Analysis (PCA)** applied to high-dimensional data, along with a **Blockchain smart contract assignment**. The work demonstrates both theoretical understanding and practical implementation across **Machine Learning** and **Blockchain** domains.
 
-This repository contains Principal Component Analysis (PCA) performed on a
-high-dimensional Breast Cancer dataset.
-
-## Contents
-- PCA using scikit-learn (complete data analysis)
-- PCA implemented from scratch using NumPy (no scikit-learn)
-
-## Files
-- notebooks/pca-complete-analysis.ipynb
-- notebooks/pca-from-scratch.ipynb
-
-The project demonstrates dimensionality reduction while retaining
-95% of the original variance.
 ---
 
-## Blockchain Assignment – Digital Notebook
+## 🧠 Part 1: PCA – High-Dimensional Data Analysis
 
-This repository also includes a Solidity smart contract developed as part of the Week 3 Blockchain Learning Assignment.
+### Dataset
+- Breast Cancer Dataset
+- High-dimensional feature space
+- Objective: Reduce dimensionality while retaining ≥ 95% variance
 
-### DigitalNotebook.sol
-- Allows users to store personal notes on the blockchain
-- Each note is linked to the user's wallet address
-- Stores message content and timestamp
-- Includes a global counter tracking total notes created by all users
+---
 
-The contract was written and compiled using the Remix IDE and pushed to this repository using the Remix Git plugin.
+## 📅 Week-wise Learning Breakdown
+
+### Week 1: High-Dimensional Data Fundamentals
+- Curse of dimensionality  
+- Feature redundancy and correlation  
+- Motivation for dimensionality reduction  
+- Data preprocessing and normalization  
+
+### Week 2: PCA Theory
+- Mean centering of data  
+- Covariance matrix computation  
+- Eigenvalues and eigenvectors  
+- Principal component interpretation  
+- Explained variance  
+
+### Week 3: PCA Using scikit-learn
+- PCA implementation using `scikit-learn`
+- Explained variance ratio analysis
+- Selection of components retaining ≥ 95% variance
+- Visualization of reduced feature space
+
+**Notebook:**  
+`pca-complete-analysis.ipynb`
+
+### Week 4: PCA From Scratch (NumPy)
+- PCA implementation without `scikit-learn`
+- Covariance matrix calculation
+- Eigen decomposition
+- Manual projection onto principal components
+- Verification against library-based PCA
+
+**Notebook:**  
+`pca-from-scratch.ipynb`
+
+### Week 5: Analysis & Interpretation
+- Comparison of library vs manual PCA
+- Variance retention analysis
+- Feature space interpretation
+- Final conclusions
+
+---
+
+## 📂 Project Structure
+
+---
+
+## 🔗 Part 2: Blockchain Assignment – Digital Notebook
+
+### Smart Contract: `DigitalNotebook.sol`
+Developed as part of the **Week 3 Blockchain Learning Assignment**.
+
+**Features:**
+- Users can store personal notes on the blockchain
+- Notes are linked to the user's wallet address
+- Each note stores message content and timestamp
+- Global counter tracks total notes created
+
+**Tools Used:**
+- Solidity
+- Remix IDE
+- Local blockchain testing
+- Git & GitHub
+
+---
+
+## 🚀 Learning Outcomes
+- Strong understanding of PCA theory and practice
+- Hands-on dimensionality reduction experience
+- Algorithm implementation from scratch
+- Solidity smart contract development
+- Integration of ML and Blockchain concepts
+
+---
+
+## 👤 Author
+**Prashant**  
+Machine Learning & Blockchain Enthusiast
+
+---
+
+
+
